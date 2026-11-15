@@ -2,6 +2,8 @@
 
 **Is Earth's water really changing — and can you trust the answer?**
 
+![HydroGeoPulse app](assets/hero.png)
+
 A tool that detects terrestrial water-storage trends from NASA GRACE/GRACE-FO satellite data, and most importantly — **proves those trends are statistically real, not noise.**
 
 - **Challenge:** Be an Earth System Trend Detective — NASA Space Apps Challenge 2026
@@ -31,6 +33,8 @@ Pick a region and HydroGeoPulse answers four questions NASA's challenge poses �
 
 ## Method (the honest-stats pipeline)
 
+![Deseasonalised Ganges series](assets/deseasonalized.png)
+
 1. **Acquire** — JPL GRACE/GRACE-FO Mascon water-storage grid (one global NetCDF, 2002–present).
 2. **Regionalize** — cos(latitude)-weighted area-average over each basin's bounding box → one monthly series.
 3. **Deseasonalize** — harmonic regression (annual + semiannual sin/cos) models and removes the seasonal cycle.
@@ -40,6 +44,8 @@ Pick a region and HydroGeoPulse answers four questions NASA's challenge poses �
 7. **Multiple testing** — Benjamini–Hochberg FDR control across all basins.
 
 ## Validation (the differentiator)
+
+![False-alarm calibration](outputs/false_alarm.png)
 
 Most projects stop at running the stats. This one **proves the stats can be trusted:**
 
