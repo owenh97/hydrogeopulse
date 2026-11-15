@@ -1,0 +1,16 @@
+# NASA data — large & redownloadable, never commit
+data/
+*.nc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Streamlit secrets (if you ever add any)
+.streamlit/secrets.toml
+
+# OS
+.DS_Store

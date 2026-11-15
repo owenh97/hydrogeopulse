@@ -1,0 +1,9 @@
+Basin,slope_cm_yr,trend,p_corrected,CI_low,CI_high,n
+Ganges (N India),-1.072,decreasing,3.6e-11,-1.31,-0.82,261
+North China Plain,-0.893,decreasing,6.2e-03,-1.35,-0.46,261
+California C. Valley,-0.932,decreasing,3.5e-07,-1.37,-0.54,261
+Amazon (control),0.229,no trend,1.8e-01,-0.11,0.61,261
+Zambezi / Okavango (S Africa),0.065,no trend,8.6e-01,-0.5,0.67,261
+Great Lakes (N America),0.326,no trend,1.1e-01,-0.15,0.81,261
+NW Australia,0.215,no trend,8.7e-02,-0.01,0.42,261
+East Africa Lakes,1.634,increasing,1.1e-05,1.24,1.97,261

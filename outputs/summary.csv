@@ -1,0 +1,9 @@
+Basin,slope_cm_yr,trend,p_corrected,CI_low,CI_high,n,p_fdr,significant_fdr,slug,lat,lon
+Ganges (N India),-1.072,decreasing,3.6e-11,-1.31,-0.82,261,2.88e-10,True,Ganges,26.0,81.0
+North China Plain,-0.893,decreasing,0.0062,-1.35,-0.46,261,0.0124,True,North_China_Plain,37.0,116.5
+California C. Valley,-0.932,decreasing,3.5e-07,-1.37,-0.54,261,1.4e-06,True,California_C._Valley,37.5,-120.0
+Amazon (control),0.229,no trend,0.18,-0.11,0.61,261,0.2057142857142857,False,Amazon,-4.0,-60.0
+Zambezi / Okavango (S Africa),0.065,no trend,0.86,-0.5,0.67,261,0.86,False,Zambezi___Okavango,-15.0,25.0
+Great Lakes (N America),0.326,no trend,0.11,-0.15,0.81,261,0.14666666666666667,False,Great_Lakes,45.0,-88.0
+NW Australia,0.215,no trend,0.087,-0.01,0.42,261,0.1392,False,NW_Australia,-18.0,126.0
+East Africa Lakes,1.634,increasing,1.1e-05,1.24,1.97,261,2.9333333333333333e-05,True,East_Africa_Lakes,0.0,35.0
